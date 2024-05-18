@@ -1,6 +1,6 @@
 import { data } from "./work";
 // import WorkIcon from "@material-ui/icons/Work";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import { MdWork } from "react-icons/md";
 import styles from "../components/styles/timeline.module.css"; // Update the import statement
 
@@ -9,7 +9,7 @@ const Timeline = () => {
     <div className="container mx-auto">
       <div className="grid grid-cols-1">
         <div className="col-span-1">
-          <Fade left big cascade>
+          <Fade direction="left" duration="1700">
             <ul className={styles.timeline}>
               {data.map((item) => {
                 return (
