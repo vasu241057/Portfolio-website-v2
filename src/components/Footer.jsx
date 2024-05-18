@@ -1,7 +1,6 @@
-import React from "react";
 import "./FooterStyle.css";
 import {
-  FaFacebook,
+  FaInstagram,
   FaHome,
   FaLinkedin,
   FaMailBulk,
@@ -9,7 +8,6 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
 
 const Footer = () => {
   return (
@@ -19,7 +17,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "white", marginRight: "2rem" }} />
             <div>
-              <p>Tower-2, KBS, Kallyanpur, Dhaka</p>
+              <p>Mumbai, India</p>
             </div>
           </div>
 
@@ -28,7 +26,7 @@ const Footer = () => {
               size={20}
               style={{ color: "white", marginRight: "2rem" }}
             />
-            <p>+880 1625568609</p>
+            <p>+91 7791932421</p>
           </div>
 
           <div className="email location">
@@ -36,46 +34,48 @@ const Footer = () => {
               size={20}
               style={{ color: "white", marginRight: "2rem" }}
             />
-            <p>tanvir.niter09@gmail.com</p>
+            <p>vasu.khandelwal24@gmail.com</p>
           </div>
         </div>
 
         <div className="right">
           <h4>About Me</h4>
           <p>
-          Hello! I am a Front-End Web Developer with a keen eye for design and a passion for creating beautiful and functional websites.
-
-          Over the past 3 months, I have been learning HTML, CSS, JavaScript, React, Bootstrap, Tailwind CSS, MUI, and other front-end web development technologies. I have completed several projects using these technologies, and I am excited to continue honing my skills and building amazing websites.
-
-          I am also proficient in version control systems like Git and GitHub, which allows me to collaborate effectively with other developers and keep track of changes to my code.
-
+            Hello! I am a software developer from Jaipur, Rajasthan. During my
+            college years, I started my coding journey. initially it i learnt c
+            in my college, but over time, I explored front-end technologies like
+            ReactJS, NextJS, Redux, HTML5, CSS/SCSS, MaterialUI, and
+            TailwindCSS. I also gained expertise in back-end development with
+            NodeJS, ExpressJS, NestJS, MongoDB, PostgreSQL and Redis.
+            Additionally, I have a deep passion for competitive coding, which
+            has honed my problem-solving abilities. Continuous learning and
+            collaboration drive my development process, and I aim to deliver
+            high-quality work.
           </p>
 
           <div className="social-icon">
-
-            <Link to={"https://web.facebook.com/me.tanvir035"} target="_blank">
-              <FaFacebook 
-                size={30}
-                style={{ color: "white", marginRight: "1rem" }}
-              />
-            </Link>
-           
-            
-            <Link to={"https://github.com/tanvir35web"} target="_blank">
+            <Link to={"https://github.com/vasu241057"} target="_blank">
               <FaGithub
                 size={30}
                 style={{ color: "white", marginRight: "1rem" }}
               />
             </Link>
-            
 
-            <Link to={"https://www.linkedin.com/in/tanvir-niter09/"} target="_blank">
+            <Link
+              to={"https://www.linkedin.com/in/vasu-khandelwal-04b5861a1/"}
+              target="_blank"
+            >
               <FaLinkedin
                 size={30}
                 style={{ color: "white", marginRight: "1rem" }}
               />
             </Link>
-
+            <Link to={"https://www.instagram.com/kh_vasu/"} target="_blank">
+              <FaInstagram
+                size={30}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </Link>
           </div>
         </div>
       </div>

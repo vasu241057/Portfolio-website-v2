@@ -10,8 +10,8 @@ const Project = () => {
     <>
       <NavBar />
       <HeroAll heading={"PROJECTS"} text={"Some of my recent projects"} />
-      <ProjectCards/>
-      <PricingCards/>
+      <ProjectCards />
+      {/* <PricingCards/> */}
       <Footer />
     </>
   );
