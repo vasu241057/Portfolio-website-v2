@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
     "boxicons": "^2.1.4",
     "rc-progress": "^3.5.1",
     "react": "^18.2.0",
