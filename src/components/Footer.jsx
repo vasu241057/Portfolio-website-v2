@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "white", marginRight: "2rem" }} />
             <div>
-              <p>Mumbai, India</p>
+              <p>Bengaluru, India</p>
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const Footer = () => {
               size={20}
               style={{ color: "white", marginRight: "2rem" }}
             />
-            <p>vasu.khandelwal24@gmail.com</p>
+            <p>vasu.khandelwal08@gmail.com</p>
           </div>
         </div>
 

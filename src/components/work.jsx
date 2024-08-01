@@ -3,32 +3,43 @@ export const data = [
     id: "ck129",
     company: "HDFC ERGO General Insurance Company Limited ",
     site: "https://www.karkhana.app/",
-    date: "Jul 2022 - Jan 2023",
+    date: "Jul 2022 - Present",
     role: "Software Developer",
-    text: " Led a 5-member team to develop dynamic Proposal Form for 4 types of health insurance, developing a fast backend API using Formik/Yup for validation generating PDF with 70+ input fields, managing daily traffic of 10,000+ visits",
-    text2:
-      "Engineered Pixel-perfect motor insurance journeys for 2/4-wheel vehicles, integrating E-Kyc Flow technology, resulting in a remarkable 12% revenue surge from our extensive user base of over 1 million daily users",
-    text3:
-      "Built custom front-end solutions, optimized insurance API response time by 1.2s and tailored service configurations to match client requirements and channel partners, also fixed bugs of the Developer Portal project",
+    text: {
+      text: "Designed and implemented pixel-perfect motor insurance journeys for 2/4-wheel vehicles, integrating E-Kyc Flow technology. The dynamic flows, tailored to user input, catered to a massive user base of 1 million+ daily users",
+      text2:
+        "Implemented analytics & monitoring features using batch & streaming pipelines, processing 100GB+ daily data.Provided actionable insights, improving product performance by 40% & reducing latency by 60% across partners",
+      text3:
+        "Implemented secure authentication and authorization system, reducing user onboarding time by 40%.Integrated role-based access control, handling 20,000+ daily logins with 99.9% uptime across 10+ partners.",
+      text4:
+        "Spearheaded a 5-member team to develop dynamic Proposal Form for 4 types of health insurance, leveraged NextJS to build fast Backend APIs. Validated & generated PDFs for 100+ fields, managing 10,000+ daily visits",
+      text5:
+        "Containerized apps with Docker for consistent environments. Used AWS S3 & CloudFront CDN, cutting page load times by 30% & Implemented TDD with Jest, boosting code reliability by 25% and reducing bugs by 40%",
+      text6:
+        "Optimized frontend performance with lazy loading, code splitting, and Redux state management. Achieved 40% faster initial load time and 25% reduced bundle size, improving UX for 500,000+ monthly users",
+    },
   },
+
   {
     id: "ck126",
     company: "Blue Yonder",
     site: "https://www.karkhana.app/",
     date: "Jul 2022 - Jan 2023",
-    text: "Leveraged Mulesoft to develop an API enabling secure authentication of 500+ employee’s work daily while ensuring data integrity, Mapped out and optimized 20+ CIS Oracle runs, maintained TM and TP API environments",
-    text2:
-      "Validated and corrected 30+ files by SQL ingestion and transform service for customer project with product and Integrated delivery teams, ensuring smooth operation",
-    text3: "",
+    text: {
+      text2:
+        "Developed RESTful APIs using Node.js & Express.js for web application, Implementing advanced multi-filter search functionality using MongoDB, optimizing queries to achieve a 30% reduction in data retrieval time.",
+      text: "Leveraged Mulesoft to develop an API enabling secure authentication of 500+ employee’s work daily while ensuring data integrity, Mapped out and optimized 20+ CIS Oracle runs, maintained TM and TP API environments",
+    },
   },
   {
     id: "ck123",
     company: "Donut",
     site: "https://www.happiestneurons.com/",
     date: "Jan 2020 - Mar 2020",
-    text: "Developed a responsive landing page using HTML, CSS,JavaScript and ReactJS, focusing on a smooth user interface and interaction, built reusable UI components to enhance code maintainability during an internship",
-    text2:
-      "Collaborated with a senior front-end engineer to build a website, ensuring code quality through debugging, issue resolution, and the implementation of unit test cases",
-    text3: "",
+    text: {
+      text: "Developed responsive landing page using React, SASS, and JavaScript during internship. Built 10+ reusableUI components, improving code reusability by 30% and reducing page load time by 25%",
+      text2:
+        "Collaborated with senior front-end engineer to build website during internship. Implemented 30+ unit tests,reducing bug by 25%. Improved code quality through debugging, decreasing development cycle time by 15%",
+    },
   },
 ];

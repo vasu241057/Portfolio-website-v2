@@ -44,9 +44,13 @@ const Timeline = () => {
                         <p className={styles.text}>{item.role}</p>
                       </div>
                       <div className={styles["timeline-body"]}>
-                        <p>{item.text}</p>
-                        <p>{item.text2}</p>
-                        <p>{item.text3}</p>
+                        <div className={styles["timeline-body"]}>
+                          {Object.values(item.text)
+                            .filter(Boolean)
+                            .map((text, index) => (
+                              <p key={index}>• {text}</p>
+                            ))}
+                        </div>
                       </div>
                     </div>
                   </li>
