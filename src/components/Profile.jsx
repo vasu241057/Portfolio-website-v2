@@ -28,7 +28,7 @@ const Profile = () => {
           <div className="social-icon-cv">
             <div className="cv">
               <Link
-                to={"/src/assets/Vasu_Khandelwal_Resume_.pdf"}
+                to={"../assets/Vasu_Khandelwal_Resume_.pdf"}
                 target="_blank"
                 className="submit-btn"
               >
