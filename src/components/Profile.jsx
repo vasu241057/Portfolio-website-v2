@@ -28,7 +28,9 @@ const Profile = () => {
           <div className="social-icon-cv">
             <div className="cv">
               <Link
-                to={"/src/assets/Vasu_Khandelwal_Resume.pdf"}
+                to={
+                  "https://drive.google.com/file/d/194JC9ad6QIQvzWhL8MX6YSyc6iAx3421/view?usp=sharing"
+                }
                 target="_blank"
                 className="submit-btn"
               >
