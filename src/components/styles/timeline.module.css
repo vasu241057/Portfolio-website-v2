@@ -80,7 +80,7 @@
   max-height: fit-content;
   float: left;
   right: 16px;
-  border: 1px solid rgba(111, 0, 196, 0.584);
+  border: 2px solid rgba(111, 0, 196, 0.584);
   border-radius: 2px;
   padding: 20px;
   -webkit-box-shadow: 0 1px 6px rgba(255, 255, 255, 0.175);
@@ -102,6 +102,20 @@
 .timeline-title {
   margin-top: 0;
   color: rgba(111, 0, 196, 0.584);
+  text-shadow: 0 0 1px rgba(111, 0, 196, 0.584),
+    0 0 2px rgba(111, 0, 196, 0.584), 0 0 3px rgba(111, 0, 196, 0.584);
+  animation: subtle-glitter 2s ease-in-out infinite alternate;
+}
+
+@keyframes subtle-glitter {
+  from {
+    text-shadow: 0 0 1px rgba(111, 0, 196, 0.584),
+      0 0 2px rgba(111, 0, 196, 0.584), 0 0 3px rgba(111, 0, 196, 0.584);
+  }
+  to {
+    text-shadow: 0 0 2px rgba(111, 0, 196, 0.684),
+      0 0 3px rgba(111, 0, 196, 0.684), 0 0 4px rgba(111, 0, 196, 0.684);
+  }
 }
 
 .timeline-body > p,

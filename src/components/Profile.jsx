@@ -12,18 +12,18 @@ const Profile = () => {
         </div>
         <div className="right">
           <h1>Vasu Khandelwal</h1>
-          <p className="designation">Front-End Developer</p>
+          <p className="designation">FullStack Developer</p>
           <p className="about-text">
-            Hello! I am a software developer from Jaipur, Rajasthan. During my
-            college years, I started my coding journey. initially it i learnt c
-            in my college, but over time, I explored front-end technologies like
-            ReactJS, NextJS, Redux, HTML5, CSS/SCSS, MaterialUI, and
-            TailwindCSS. I also gained expertise in back-end development with
-            NodeJS, ExpressJS, NestJS, MongoDB, PostgreSQL and Redis.
-            Additionally, I have a deep passion for competitive coding, which
-            has honed my problem-solving abilities. Continuous learning and
-            collaboration drive my development process, and I aim to deliver
-            high-quality work.
+            Hello there! As a full-stack developer from Jaipur, I've journeyed
+            from C to a buffet of modern technologies. I craft sleek front-end
+            experiences with ReactJS, NextJS, and friends, while my back-end
+            skills in NodeJS and various databases keep things running smoother
+            than a well-oiled machine. When I'm not building web wonders, you'll
+            find me in the competitive coding arena, solving problems with the
+            focus of a chai wallah during rush hour. Driven by an insatiable
+            curiosity and a commitment to quality, I'm always ready to tackle
+            the next digital challenge. Let's build something remarkable
+            together – no peacock dance required.
           </p>
           <div className="social-icon-cv">
             <div className="cv">
