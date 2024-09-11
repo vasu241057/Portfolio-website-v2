@@ -1,10 +1,9 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import { ProjectCardData } from "./Data";
 
 const ProjectCards = () => {
   return (
-    <div className="project">
+    <div className="project  ">
       <h1 className="project-heading">RECENT PROJECTS</h1>
       <div className="project-container">
         {ProjectCardData.map((item, index) => (

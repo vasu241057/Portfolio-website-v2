@@ -43,7 +43,7 @@ export const ProjectCardData = [
     image: processing,
     alt: "Project Image",
     title: "Image-processing",
-    text: "A system that processes images from CSV files, compresses them, and uploads to AWS S3. It supports asynchronous image handling with APIs for uploading CSVs and checking status. Built with Node.js, Express, Prisma, TypeScript, AWS SDK, and Sharp.",
+    text: "A system that processes images from CSV files, compresses them, and uploads to AWS S3. It supports asynchronous image handling with APIs for uploading CSVs and checking status. ",
     git: "https://github.com/vasu241057/image-processing-frontend",
     link: "https://image-processing-frontend-9dsj.vercel.app/",
   },
