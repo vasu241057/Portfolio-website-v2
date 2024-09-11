@@ -3,6 +3,7 @@ import eShopping from "../assets/projects/e-commerce.jpg";
 import jamming from "../assets/projects/jamming.jpg";
 import website_v1 from "../assets/projects/website_v1.jpg";
 import Recipe from "../assets/projects/Recipe.jpg";
+import processing from "../assets/projects/Image-processing.png";
 
 //pricing cards
 
@@ -37,6 +38,14 @@ export const ProjectCardData = [
     text: "e-Shopping is a full-fledged e-commerce website designed to streamline the process of setting up and managing an online store.",
     git: "https://github.com/vasu241057/e-commerce",
     link: "https://e-commerce-vasu.vercel.app/",
+  },
+  {
+    image: processing,
+    alt: "Project Image",
+    title: "Image-processing",
+    text: "A system that processes images from CSV files, compresses them, and uploads to AWS S3. It supports asynchronous image handling with APIs for uploading CSVs and checking status. Built with Node.js, Express, Prisma, TypeScript, AWS SDK, and Sharp.",
+    git: "https://github.com/vasu241057/image-processing-frontend",
+    link: "https://image-processing-frontend-9dsj.vercel.app/",
   },
   {
     image: paytm,
